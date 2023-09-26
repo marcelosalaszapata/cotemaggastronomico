@@ -1,0 +1,186 @@
+@import url("https://fonts.googleapis.com/css2?family=Work+Sans:wght@300;700&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  list-style: none;
+}
+
+:root {
+  color-scheme: light dark;
+}
+
+
+
+body {
+  font-family: "Work-sans", sans-serif;
+  background-image: url(asset/Logo\ Cotemag2.png);
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: auto;
+  backdrop-filter: blur(8px);
+}
+@media screen {
+}
+
+@media (min-width: 1280px) {
+  .container {
+    max-width: 1200px;
+  }
+}
+
+@media (min-width: 1200px) {
+  .container {
+    max-width: 1140px;
+  }
+}
+
+@media (min-width: 767px) {
+  .testimonios {
+    width: 650px;
+    margin: auto;
+  }
+  .articulos-recientes {
+    flex-direction: row;
+  }
+  .articulos-recientes > div {
+    flex: 0 0 33%;
+  }
+}
+
+@media (max-width: 767px) {
+  .articulos-recientes {
+    flex-direction: column;
+  }
+  .articulos-recientes > div {
+    flex: 0 0 100%;
+  }
+}
+
+.articulos-recientes > div {
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+.container {
+  width: 100%;
+  margin-right: auto;
+  margin-left: auto;
+  display: flex;
+  flex-direction: column;
+}
+
+.titulo-Mayorr{
+  text-align: center;
+}
+
+.titulo-Mayorr {
+  text-transform: capitalize;
+  font-weight: 600;
+  color: #D2B862;
+  margin-bottom: 16px;
+}
+
+.articulos-recientes {
+  margin-top: 48px;
+  display: flex;
+  gap: 10px;
+}
+
+.articulo:hover img {
+  transform: scale(1.1);
+}
+
+.image-container img {
+  width: 100%;
+  height: auto;
+  transition: 0.3s ease-in-out;
+  border-radius: 5px;
+}
+
+.tema {
+  display: flex;
+  justify-content: right;
+}
+
+.centro {
+  text-align: center;
+}
+
+.centro:hover {
+  color: grey;
+}
+
+.master {
+  display: flex;
+  width: 400px;
+  height: 700px;
+  padding: 60px;
+  margin: 60px;
+}
+
+.parrafo {
+  display: flex;
+  font-size: 18px;
+  line-height: 26px;
+  font-weight: 600;
+  margin-top: 6px;
+  text-align: justify;
+}
+
+.parrafo:hover {
+  color: orangered;
+}
+
+.cuadro {
+  background-color: orangered;
+  display: flex;
+  padding: 10px 30px;
+  border-radius: 5px;
+  justify-content: center;
+  align-items: center;
+  font-size: 20px;
+  width: 200px;
+  margin: auto;
+  margin-top: 48px;
+}
+
+a {
+  text-decoration: none;
+  color: #fafafa;
+}
+
+.div {
+  padding: 100px;
+  text-align: center;
+}
+
+.texto {
+  color: #f58300;
+}
+
+.logo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #f58300;
+  font-size: 50px;
+}
+
+.texto1 {
+  display: flex;
+  font-size: 20px;
+  line-height: 34px;
+  font-weight: 600;
+  text-align: center;
+  margin-bottom: 10px;
+  letter-spacing: -0.02em;
+  padding: 40px;
+  color: rgba(0, 0, 0, 0.534);
+}
+
+.texto1:hover {
+  color: #f58300;
+}
